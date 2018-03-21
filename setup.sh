@@ -10,3 +10,6 @@ perl fastText/wikifil.pl data/enwik9 > data/fil9
 mkdir result
 
 ./fastText/fasttext skipgram -input data/fil9 -output result/fil9
+
+
+./fastText/fasttext nn result/fil9.bin
